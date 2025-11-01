@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abishek Babu | Portfolio Website</title>
+  <link rel="icon" type="image/png" href="portfolio.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header>
+    <h1>Welcome <span>All</span></h1>
+    <nav id="navbar">
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <div class="nav-links" id="nav-links">
+        <a href="#" class="nav-link" data-target="profile">Profile</a>
+        <a href="#" class="nav-link" data-target="skills">Skills</a>
+        <a href="#" class="nav-link" data-target="projects">Projects</a>
+        <a href="#" class="nav-link" data-target="contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Profile -->
+    <section id="profile" class="content-section active">
+      <img src="profile pic.jpg" alt="Profile Picture" class="profile-pic" />
+      <h2>Hello, I’m <span>Abishek Babu</span></h2>
+      <p>
+        Enthusiastic and detail-oriented Java Web Developer with a strong
+        foundation in core Java, OOPs, HTML, CSS, JavaScript, and MySQL.<br>
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="content-section">
+      <ul class="skills-list">
+        <li><span>Programming Languages:</span> Proficient in Python, Java, and JavaScript with strong understanding of object-oriented programming concepts, logic building, and problem-solving techniques. Experienced in writing clean, efficient, and maintainable code for both frontend and backend applications.</li>
+        <br>
+       <li><span>Web Technologies:</span> Proficient in HTML, CSS, and Bootstrap for building responsive and visually appealing web interfaces. Experienced in implementing modern design principles, cross-browser compatibility, and mobile-first web development.</li>
+        <br>
+        <li><span>Software Used:</span> Experienced in using Visual Studio Code, Brackets, and Eclipse IDE for software and web development. Skilled in MySQL Workbench for database design and management. Comfortable working in integrated development environments and collaborating on version-controlled projects.</li>
+        <br>
+        <li><span>Database:</span> Hands-on experience with MySQL for designing, managing, and querying relational databases. Skilled in writing SQL queries, creating tables, managing relationships, and optimizing database performance</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="content-section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="Automatic water level controller.jpg" alt="Automatic water level controller" />
+          <div class="project-info">
+            <h3>Automatic Water Level Controller</h3>
+            <p>Automatically turns motor ON when the tank is low and OFF when full.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Smart intruder setection system.jpg" alt="Smart Intruder Detection System" />
+          <div class="project-info">
+            <h3>Smart Intruder Detection System</h3>
+            <p>Person detection with OpenCV and Twilio alerts for real-time monitoring.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="personal blog website.jpg" alt="Personal Blog Website" />
+          <div class="project-info">
+            <h3>Personal Blog Website</h3>
+            <p>Responsive blog platform for sharing thoughts and collaborating with talents.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="content-section">
+      <h2>Get in <span>Touch</span></h2>
+      <div class="contact-info">
+        <p><img src="contact.png" alt="Phone" class="icon" /> +91 7010232161</p>
+        <p>
+          <img src="gmail.png" alt="Gmail" class="icon" />
+          <a href="mailto:abishekbabu560@gmail.com">abishekbabu560@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/Abishekbabu-11" target="_blank"><img src="github.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/abishek-babu-81b657249" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/abishek_abi_011" target="_blank"><img src="instagram.png" alt="Instagram" /></a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
